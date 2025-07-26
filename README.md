@@ -51,8 +51,10 @@ You are tasked with hosting a simple HTML website using Azure’s built-in **Sta
    - **Index document name**: `index.html`
    - **Error document path**: `error.html`
 5. Click **Save**
-6. Note the **Primary endpoint URL**, e.g.: https://az900webhost.z33.web.core.windows.net/
-
+6. Note the **Primary endpoint URL**, e.g.: 
+```
+https://az900webhost.z33.web.core.windows.net/
+```
 
 
 ---
@@ -90,9 +92,7 @@ You are tasked with hosting a simple HTML website using Azure’s built-in **Sta
 
 - You should see:
 
-  ```
-  Oops!
-  ```
+  ``` Oops! ```
 
 ---
 
