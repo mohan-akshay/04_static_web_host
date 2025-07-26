@@ -35,7 +35,7 @@ You are tasked with hosting a simple HTML website using Azure’s built-in **Sta
    - **Subscription**: Select your Azure subscription
    - **Resource group**: `az900-project4-rg` *(create if it doesn’t exist)*
    - **Storage account name**: `az900webhost` *(must be globally unique)*
-   - **Region**: Choose your preferred region (e.g., East US)
+   - **Region**: `UK South`
    - **Performance**: Standard
    - **Redundancy**: **Locally-redundant storage (LRS)**
 3. Leave other settings as default → Click **Review + create** → **Create**
