@@ -47,43 +47,38 @@ You are tasked with hosting a simple HTML website using Azure’s built-in **Sta
 1. After deployment, go to your storage account: `az900webhost`
 2. In the left menu, scroll to **“Static website”** (under **Data management**)
 3. Click **Enable**
-4. Set the following:
+4.  Set the following:
    - **Index document name**: `index.html`
    - **Error document path**: `error.html`
 5. Click **Save**
-6. Note the **Primary endpoint URL**, e.g.:
+6. Note the **Primary endpoint URL**, e.g.: https://az900webhost.z33.web.core.windows.net/
 
 
----
-
-### 3. 🧾 Upload HTML Files
-
-#### Prepare Files Locally
-
-Create two simple HTML files on your machine:
-index.html and error.html
 
 ---
 
-### 📤 Upload to Azure Storage
+### 3. 📤 Upload to Azure Storage
 
-1. Go to your storage account: **`az900webhost`**
-2. In the left-hand menu under **Data storage**, click **Containers**
-3. Open the **`$web`** container  
+1. Create two simple HTML files on your machine:   `index.html` and `error.html`
+2. Go to your storage account: **`az900webhost`**
+3. In the left-hand menu under **Data storage**, click **Containers**
+4. Open the **`$web`** container  
    *(This container is auto-created when static website hosting is enabled)*
-4. Click **Upload**
-5. In the upload panel:
+5. Click **Upload**
+6. In the upload panel:
    - Click **Browse** and select both `index.html` and `error.html` from your local machine
    - Leave default options unchanged
    - Click **Upload**
 
 ---
 
-### 🌍 Access Your Website
+### 4. 🌍 Access Your Website
 
 1. Open your browser and visit the **Primary endpoint URL** shown after enabling static website hosting. 
 
-2. You should see the content of your `index.html`:   ``` Hello Az900! ```
+2. You should see the content of your `index.html`:   
+
+      ``` Hello Az900! ```
 
 3. To test the **error page**:
 
@@ -101,7 +96,7 @@ index.html and error.html
 
 ---
 
-### 🧹 Cleanup
+### 5. 🧹 Cleanup
 
 To avoid incurring charges:
 
